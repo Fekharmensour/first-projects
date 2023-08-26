@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="control-button">
+    <span>Start Game</span>
+</div>
+
+<div class="info-continner">
+    <div class="name">
+        Hello   <span></span>
+    </div>
+    <div class="tries">
+        Wrong Tries : <span>0</span>
+    </div>
+    <div class="rusltat">Score Game : <span></span> </div>
+    <div class="try">Try Again</div>
+</div>
+
+<div class="memorey-game-block"> 
+
+    <div class="game-block" data-technology="plants">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1459411552884-841db9b3cc2a.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block "  data-technology="plants">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1459411552884-841db9b3cc2a.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="orang">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1494253109108-2e30c049369b.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="orang">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1494253109108-2e30c049369b.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="teicomond">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1531525645387-7f14be1bdbbd.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="teicomond">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1531525645387-7f14be1bdbbd.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="camira">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1611963169787-ac9e3a65b27b.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="camira">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/photo-1611963169787-ac9e3a65b27b.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="bnana">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (1).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="bnana">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (1).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="Earphone">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (2).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="Earphone">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (2).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="intellig">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (3).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="intellig">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (3).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="appal">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (4).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="appal">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (4).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="free">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (5).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="free">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image (5).png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="hand">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image.png" alt="">
+        </div>
+    </div>
+
+    <div class="game-block"  data-technology="hand">
+        <div class="face front"></div>
+        <div class="face back">
+            <img src="img/safeimagekit-300x300-image.png" alt="">
+        </div>
+    </div>
+
+</div>
+    <audio src="audio/mixkit-quest-game-interface-click-1139.wav" id="clicked" preload="auto"></audio>
+    <audio src="audio/Correct .mp3" id="Correct" preload="auto"></audio>
+    <audio src="audio/mixkit-tech-break-fail-2947.wav" id="wrong" preload="auto"></audio>
+    <audio src="audio/wrong sup 10.mp3" id="wrong10"></audio>
+    <audio src="audio/mixkit-wrong-answer-fail-notification-946.wav" id="wrong15" preload="auto"></audio>
+    <audio src="audio/win.wav" preload="auto" id="win"></audio>
+    <audio src="audio/again.mp3" preload="auto" id="again"></audio>
+    <audio src="audio/loser.mp3" preload="auto" id="loser"></audio>
+    <audio src="audio/error.mp3" id="error"></audio>
+    <script src="javaScript.js"></script>
+</body>
+</html>
